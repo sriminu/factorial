@@ -11,6 +11,20 @@ print(out);
 var a = 100;
 var b = 200;
 var c = 600;
-var res = a > b ? (a>c ? "$a is larger" : "$c is larger"):(b>c ? )
+var res = a > b ? (a>c ? "$a is larger" : "$c is larger")
+                 : (b>c ? "$b is larger": "$c is larger");
 print(res);
+
+double mark = 8;
+var res1 =  mark ?? "mark is null";
+print(res1);
+
+String? hello;
+var length = hello?.length;
+print(length);
+
+
+
+
 }
+
